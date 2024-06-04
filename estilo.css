@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+  color: black;
+  font-family: Tahoma;
+}
+
+h2 {
+  color: aliceblue;
+}
+
+h3 {
+color: fuchsia;	
+}
+ 
+a {
+	color: lightpink;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" 
+}
+
+body{
+	background: url("img/nm.jpeg")no-repeat fixed;
+	background-size: cover;
+}
+/* 3. CONTENEDOR */
+/* Estilos para el contenido principal de la pagina*/
+#wrap-main {
+	width: 650px;
+	min-height: 100vh;
+	background-color: deeppink;
+	padding: 20px;
+	margin: auto;
+}
+
+#logo{
+	height: auto;
+	padding: 20px;
+	width: auto;
+}
+
+/* 4. CONTENIDO */
+/* Estilos para el contenido principal de la página */
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: black;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6 px rgba(0, 0, 0, 0.8);
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #fa63a6;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+p {
+    margin: 20px 0;
+    color: #FFFFFF;
+    text-align:center;
+}
+
+ul, ol {
+    padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+ul, ol, li, h3, h4, a {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+hr {
+    border: 0;
+    background-color: #fa63a6;
+    height: 1px;
+    margin: 20px 0;
+}
+
+#introducción{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto 20px;
+}
+
+#discografía{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto 20px;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+audio {
+    width: 100%;
+}
+
+figcaption {
+    font-style: oblique;
+    font-weight: lighter;
+    color: #FFFFFF;
+    margin: 0 auto 20px;
+}
+
+/* 5. NAVEGADOR Y FOOTER */
+/* Estilos para la navegación y el pie de página */
+nav {
+    text-align:left;
+}
+nav a{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 20px;
+	background-color:deeppink;
+	text-decoration: none;
+	color: aliceblue;
+	border-radius: Spx;
+ }
+footer{
+	background-color: deeppink;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	columns: 1;
+	text-shadow: 
+}
+
+
